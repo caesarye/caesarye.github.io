@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/homepage.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+    <script src="js/homepage.js"></script>
+  </head>
+
+  <body>
+  	<nav>
+  	       Welcome to Gloria's Page,
+  	       <p id="user-name" onclick="replaceName()"> __! </p> 
+  		<ul class="right hide-on-med-and-down">
+    		<li><a href="#!">About Me</a></li>
+    		<li><a href="#!">My Resume</a></li>
+  		</ul>
+ 		<ul id="slide-out" class="side-nav">
+    		<li><a href="#!">About Me</a></li>
+    		<li><a href="#!">My Resume</a></li>
+  		</ul>
+  		<a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+	</nav>
+        
+    
+<!-- div class="col offset-l3 l3 m6 s12">
+        <div class="box"></div>
+      </div>
+
+      <div class="col l3 m6 s12">
+        <div class="box"></div>
+      </div>
+
+      <div class="col offset-l3 l3 m6 s12">
+        <div class="box"></div>
+      </div>
+
+      <div class="col l3 m6 s12">
+        <div class="box"></div-->
+
+    <div class="row" id="input-row">
+      <div class="col offset-l3 l6 offset-m2 m8 s12">
+        <div class="card">
+          <div class="card-content">
+             <!--form method="post" action"/post/new"> </form-->
+            <form>
+              <textarea class="materialize-textarea"></textarea>
+              <div class="btn waves-effect waves-light" id="makePostButton">Make post!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="post-row">
+      <div class="col offset-l3 l6 offset-m2 m8 s12">
+        <div class="card">
+          <div class="card-content">This is my first post!</div>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>
